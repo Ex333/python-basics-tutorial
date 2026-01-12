@@ -12,5 +12,4 @@ Time="18:00"
 print("I like watching", Item, "at", Time, "on", ProgramName,".")
 #6
 print(" I like watching ", Item, " at ", Time, " on ", ProgramName,".", sep='')
-#7
-print("Siemanko","tutaj","jest","Mati",sep=', ')
+print("Siemanko tutaj Mati co mam CI powiedziec","dupa bladaaa", sep='   ')
