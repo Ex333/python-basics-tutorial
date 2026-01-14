@@ -1,0 +1,51 @@
+String type – Part 1 (LAB)
+
+Task 1
+Create a variable quote and assign it the following value:
+'A good programmer is someone who always looks both ways before crossing a one-way street'
+
+Task 2
+Display the text written in uppercase letters only.
+
+Task 3
+Display the text written in lowercase letters only.
+
+Task 4
+Check whether the text ends with the word 'street'.
+
+Task 5
+Check whether the text is written in uppercase letters.
+
+Task 6
+Check whether the text converted to uppercase is written in uppercase letters
+(use method chaining).
+
+Task 7
+Find the position (counting from zero) where the word (substring) 'one' appears in the text.
+
+Task 8
+Replace the word (substring) 'one' with '1'.
+
+Task 9
+Replace the word (substring) 'one' with '1' and the word 'both' with '2'.
+
+Task 10
+Split the string into smaller strings using a space as the separator.
+
+Task 11
+Check whether the string is:
+
+a number,
+
+a decimal number,
+
+a string containing only letters,
+
+a string containing letters and digits.
+
+Explanation
+
+In Task 11, you will get four False values.
+The last two results may be especially surprising.
+
+The string contains spaces and consists of multiple words, which is why it is neither an alphabetic string nor an alphanumeric string.
