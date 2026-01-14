@@ -22,4 +22,4 @@ print(quote.split(" "))
 print(quote.isdigit())     # Check if the string is a number
 print(quote.isdecimal())   # Check if the string is a decimal number
 print(quote.isalpha())     # Check if the string contains only letters
-print(quote.isalnum())     # Check if the string contains letters and digits
+print(quote.isalnum())     # Check if the string contains letters and digitsgit 
