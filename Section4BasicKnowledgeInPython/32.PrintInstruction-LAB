@@ -1,0 +1,31 @@
+1.Display the texts: TVP1, TVP2, TVN, Polsat, BBC, HBO, MTV.
+Use one print statement.
+
+2.Display the above texts using the semicolon (;) character as a separator.
+
+3.Look at the text below. One part of it repeats like a chorus in a song.
+Using one print statement, display the entire text, but try to shorten the command.
+The “chorus” — the repeating part — should appear only once in the print statement.
+Can you think of a way to do this?
+
+I like computers but better is TVP1 but better is TVP2 but better is TVN but better is Polsat but better is BBC but better is HBO but better is MTV
+
+
+4.Declare variables:
+
+ProgramName with the value 'BBC'
+
+Item with the value 'News'
+
+Time with the value '18:00'
+
+5.Note: In this task, do not use string concatenation.
+Use only the print statement.
+
+Display the text (pay attention to the dot at the end):
+
+I like watching News at 18:00 on BBC .
+
+
+6.Change the text so that the dot is placed immediately after BBC.
+Still do not use concatenation and use only one print statement.
