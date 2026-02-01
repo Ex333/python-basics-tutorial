@@ -1,60 +1,60 @@
-Czy wiesz, że twórca języka Python - Guido Van Rossum - był fanem latającego cyrku Monty Pythona? Tak. To od tego wzięła się nazwa języka!
+# Python String Exercises – Monty Python & Basics
+# Author: your_name_here
 
-1. Wejdź na stronę Wikipedii poświęconej Monty Pytonowi
+# 1–2. Store a copied fragment from the "Monty Python" section on Wikipedia
+# The text contains multiple lines, so we use triple quotes
 
-        https://en.wikipedia.org/wiki/Monty_Python
-
-Skopiuj fragment z paragrafu zatytuowanego "Monty Python".
-
-2. W skrypcie utwórz zmienną article i przypisz jej wartość skopiowanego tesktu.
-
-Uwaga! Skopiowany tekst jest długi i zawiera znaki ENTER. Jeśli chcesz przypisać do zmiennej taki tekst możesz użyć konstrukcji z trzema apostrofami o tak:
-
-zmienna = '''
-dłuuugi tekst i jeszcze 
-dłuższy tekst i....
+article = '''
+Monty Python were a British surreal comedy group who created the sketch comedy
+television show Monty Python's Flying Circus, that first aired on the BBC in 1969.
+The group's influence on comedy has been compared to The Beatles' influence on music.
+Their work has been called influential and innovative.
 '''
 
-3. Skonwertuj tekst do dużych liter i wyświetl go. Zrób to w jednej instrukcji.
+# 3. Convert the text to uppercase and print it (one instruction)
+print(article.upper())
 
-4. Wyświetl tekst zamieniając 'monty' na 'flying'. Ponieważ python rozpoznaje małe i duże litery przed zamianą skonwertuj go na małe litery. Ponownie postaraj się to zrobić w jednym poleceniu.
+# 4. Replace 'monty' with 'flying'
+# First convert the text to lowercase, then replace
+print(article.lower().replace('monty', 'flying'))
 
-5. Rozbij tekst na słowa ze względu na spacje i wyświetl tą listę.
+# 5. Split the text into words using spaces and print the list
+print(article.split(' '))
 
-6. Wyświetl tekst w postaci:
-        word python appears 3 times 
-oczywiście liczba (tutaj 3) powinna być wyliczona, jako ilość wystąpień tekstu python w zmiennej article
+# 6. Print how many times the word "python" appears in the text
+python_count = article.lower().count('python')
+print(f"word python appears {python_count} times")
 
-7. Poleceniem print wyświetl tekst:
-to print the \ you need to put \ twice in your text like this: \\ 
+# 7. Print text with backslashes
+print("to print the \\ you need to put \\ twice in your text like this: \\\\")
 
-8. Poleceniem print wyświetl tekst
+# 8. Print the same text in two different ways
 
-The best hits of '80s!!! 
+# Using single quotes
+print('The best hits of \'80s!!!')
 
-Zrób to na 2 sposoby:
--raz tekst powinien być zamknięty w pojedynczym apostrofie '
--a drugi raz tekst powinien być zamknięty w cudzysłowiu "
+# Using double quotes
+print("The best hits of '80s!!!")
 
-9. Teraz zrobisz "mini kalkulator" do kantoru wymiany walut. Chcemy wyświetlić tabelkę w postaci:
+# 9. Mini currency exchange calculator
 
-cur   exchange amount
-USD   3.65     64.10958904109589
-EUR   4.23     55.31914893617021
-w tym celu:
+amountPLN = 234
 
--najpierw zadeklaruj zmienną amountPLN i wpisz do niej wartość 234
+print("cur\texchange\tamount")
+print("USD\t3.65\t\t", amountPLN / 3.65)
+print("EUR\t4.23\t\t", amountPLN / 4.23)
 
--następnie wyświetl teksty rozdzielając wartości tabulatorem, tak aby to co zostanie wypisane na ekranie przypominało tabelkę (skorzystaj do tego z kilku poleceń print, jednolinijkowy print byłby zbyt trudny do zrozumienia)
+# 10. Declare a variable with a numeric value stored as text
+ValueAsText = '123.45'
 
--wartości w kolumnie amount wylicz dzieląc amountPLN przez aktualny kurs USD i EUR (w tym przykładzie są to 3.65 i 4.23)
+# 11. Declare a float factor
+factor = 1.23
 
-10. Zadeklaruj zmienną ValueAsText i wpisz do niej wartość '123.45'
-
-11. Zadeklaruj zmienną factor o wartości 1.23
-
-12. Wyświetl tekst:
-
-value is  123.45 factor is 1.23 value*factor= 151.8435 
-
-podczas obliczania value * factor skonwertuj zmienną ValueAsText na typ float
+# 12. Print calculation result
+# Convert ValueAsText to float before multiplying
+print(
+    "value is", ValueAsText,
+    "factor is", factor,
+    "value*factor=",
+    float(ValueAsText) * factor
+)
