@@ -25,7 +25,7 @@ print(article.split(' '))
 python_count = article.lower().count('python')
 print(f"word python appears {python_count} times")
 
-# 7. Display text with backslashes.
+# 7. Display text with backslashes.g
 print("to print the \\ you need to put \\ twice in your text like this: \\\\")
 
 # 8. Display the same text in two ways.
